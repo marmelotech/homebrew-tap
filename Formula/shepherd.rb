@@ -1,20 +1,20 @@
 class Shepherd < Formula
   desc "AI-native CLI automation and development engine for Dart & Shepherd Platform"
   homepage "https://shepherdplatform.com"
-  version "0.14.4"
+  version "0.14.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cruvinelrv/shepherd/releases/download/v0.14.4/shepherd-macos-arm64.tar.gz"
-      sha256 "ae4c7c1662fdaacfe95db099077c1177763ab59df262290aed13516140f2a508"
+      url "https://github.com/cruvinelrv/shepherd/releases/download/v0.14.5/shepherd-macos-arm64.tar.gz"
+      sha256 "7f96be30fe518398d0fd433169dc827b5a1787fa8a87b70325165fc40b67054b"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/cruvinelrv/shepherd/releases/download/v0.14.4/shepherd-linux-x64.tar.gz"
-      sha256 "58e1e6b31eb92494e6b2d1fe77b277b2a3418e57c7e3834e0e7f987599f1437a"
+      url "https://github.com/cruvinelrv/shepherd/releases/download/v0.14.5/shepherd-linux-x64.tar.gz"
+      sha256 "5a0528f6741b8fc635e20e25344b0d0a7c2fa181f1c20bffca94c7e8a22b9edf"
     end
   end
 
